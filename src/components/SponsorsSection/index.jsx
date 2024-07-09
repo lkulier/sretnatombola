@@ -8,26 +8,7 @@ const SponsorsSection = () => {
     <>
       <Grid.Row>
         <Grid.Col xs={12} md={8}>
-          <h2>Sponsors</h2>
-          <p>Special thanks to the following companies.</p>
-          <h3>
-            Platinum Tier
-            <Button
-              className="contribute-button"
-              href="./list"
-              target="_blank"
-              outline
-              size="sm"
-              RootComponent="a"
-              color="primary"
-            >
-              Contribute to List
-            </Button>
-          </h3>
-          <p>Contribute $300 or more to be featured.</p>
-          <p>
-            <b>Crypto:</b> 0x52D646D040E832D074e062ddf540584788cEd026
-          </p>
+          <h2>Sponzori</h2>
         </Grid.Col>
       </Grid.Row>
       <Grid.Row>

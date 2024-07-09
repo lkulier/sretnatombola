@@ -12,67 +12,58 @@ class Faq extends Component {
       <SiteWrapper>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>{APP_NAME} - Frequently Asked Questions (FAQ)</title>
+          <title>{APP_NAME} - Često postavljana pitanja (FAQ)</title>
           <script type="application/ld+json">{FAQ}</script>
           <script type="application/ld+json">{REVIEW}</script>
         </Helmet>
-        <h1>Frequently Asked Questions (FAQ)</h1>
+        <h1>Često postavljana pitanja (FAQ)</h1>
         <Card>
           <Card.Body>
             <Card>
               <Card.Status color="blue" />
               <Card.Header>
                 <Card.Title>
-                  What tools can I use to do a lucky draw?
+                  Koje alate mogu koristiti za izvlačenje nagrada?
                 </Card.Title>
               </Card.Header>
               <Card.Body>
                 <b>
                   <a href="http://luckydraw.me/">Lucky Draw Simulator</a>
                 </b>{" "}
-                is a great tool which many companies and individuals trust and
-                use to ensure a fair and transparent drawing process. It is free
-                and easy to use which requires only a few configurations to get
-                started right away.
+                je izvrstan alat kojemu mnoge tvrtke i pojedinci vjeruju i
+                koriste kako bi osigurali pošten i transparentan proces
+                izvlačenja. Besplatan je i jednostavan za korištenje, te zahtijeva samo nekoliko konfiguracija da biste odmah započeli.
               </Card.Body>
             </Card>
             <Card>
               <Card.Status color="blue" />
               <Card.Header>
-                <Card.Title>How does a lucky draw work?</Card.Title>
+                <Card.Title>Kako radi izvlačenje nagrada?</Card.Title>
               </Card.Header>
               <Card.Body>
-                A lucky draw is a gambling competition in which people randomly
-                obtain numbered tickets and each tickets have a chance of
-                winning a prize. A numbered ticket is selected at random and the
-                selected winner walks away with a prize.
+                Izvlačenje nagrada je natjecanje u kojem ljudi nasumično dobivaju numerirane listiće i svaki listić ima priliku osvojiti nagradu. Numerirani listić se nasumično odabire i izabrani pobjednik osvaja nagradu.
               </Card.Body>
             </Card>
             <Card>
               <Card.Status color="blue" />
               <Card.Header>
-                <Card.Title>How do you hold a lucky draw?</Card.Title>
+                <Card.Title>Kako održati izvlačenje nagrada?</Card.Title>
               </Card.Header>
               <Card.Body>
-                Any company or individuals can easily host a lucky draw online
-                simply by setting a certain requirements and prepare rewards for
-                the winners. Tools such as{" "}
+                Bilo koja tvrtka ili pojedinac može jednostavno održati izvlačenje nagrada online jednostavnim postavljanjem određenih zahtjeva i pripremom nagrada za pobjednike. Alati poput{" "}
                 <b>
                   <a href="http://luckydraw.me/">Lucky Draw Simulator</a>
                 </b>{" "}
-                is then used to select the winners, ensuring a fair and
-                transparent drawing process.
+                se zatim koriste za odabir pobjednika, osiguravajući pošten i transparentan proces izvlačenja.
               </Card.Body>
             </Card>
             <Card>
               <Card.Status color="blue" />
               <Card.Header>
-                <Card.Title>What is a good lucky draw prize?</Card.Title>
+                <Card.Title>Što je dobra nagrada za izvlačenje?</Card.Title>
               </Card.Header>
               <Card.Body>
-                Prizes such as Electronic Devices, Gift Baskets, Seasonal
-                Products, Television, Gift Vouchers and Travel Voucher are
-                popular lucky draw prize ideas.
+                Nagrade poput Elektroničkih uređaja, Poklon košara, Sezonskih proizvoda, Televizora, Poklon bonova i Putnih vaučera su popularne ideje za nagrade na izvlačenju.
               </Card.Body>
             </Card>
           </Card.Body>
@@ -81,5 +72,4 @@ class Faq extends Component {
     );
   }
 }
-
 export default Faq;

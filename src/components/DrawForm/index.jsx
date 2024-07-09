@@ -26,11 +26,11 @@ class DrawForm extends Component {
 
     return (
       <div style={style} className={className}>
-        <Header.H3>Configuration</Header.H3>
+        <Header.H3>Postavke</Header.H3>
         <div className="form">
           <Form onSubmit={onSubmit}>
             <Form.FieldSet>
-              <Form.Group label="List of Items" isRequired>
+              <Form.Group label="Brojevi" isRequired>
                 <Form.Textarea
                   name="drawItems"
                   placeholder={placeholder}
@@ -41,14 +41,14 @@ class DrawForm extends Component {
               <Form.Group>
                 <Form.Checkbox
                   name="skipAnimation"
-                  label="Skip Animation"
+                  label="Preskoči animaciju"
                   onChange={handleSkipAnimationChange}
                 />
               </Form.Group>
               <Form.Group>
                 <Form.Checkbox
                   name="noRepeat"
-                  label="Remove Drawn Item"
+                  label="Izbriši izvučene brojeve"
                   onChange={handleRemoveDrawnItemChange}
                 />
               </Form.Group>
@@ -57,7 +57,7 @@ class DrawForm extends Component {
                 type="submit"
                 disabled={drawItems.length < 2}
               >
-                Configure
+                Pokreni
               </Button>
             </Form.FieldSet>
           </Form>
